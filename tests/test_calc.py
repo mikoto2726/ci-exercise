@@ -1,5 +1,5 @@
 import unittest
-from project.calc import fact
+from project.calc import fact, gcb
 
 
 class TestTarget(unittest.TestCase):
