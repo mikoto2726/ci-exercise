@@ -11,5 +11,5 @@ class TestTarget(unittest.TestCase):
         self.assertEqual(fact(0), 1)
     
     def test_fact_negative(self):
-        with self.assertEqual(ValueError):
+        with self.assertRaises(ValueError):
             fact(-1)
